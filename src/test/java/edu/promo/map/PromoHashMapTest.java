@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @DisplayName("Implementation test PromoHashMapTest")
 public class PromoHashMapTest {
 
-    final Map<Integer, Boolean> switches = new PromoHashMap<>();
+    final Map<Integer, Boolean> switches = new PromoHashMap<>(2);
     final Map<String, String> contacts = new PromoHashMap<>(8, 0.25F);
     final Map<Integer, String> threads = new PromoHashMap<>();
 
